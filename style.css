@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url("images/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #edfbfe;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    margin-top: 50px;
+    width: 200px;
+    height: 30px;
+    margin-left: 70px;
+}
+.btn{
+    margin-top: 50px;
+    margin-right: 70px;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 5px 5px 30px #e4f1f7;
+    color: #718280;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+}
+
+.images img{
+    width: 680px;
+    margin-right: 70px;
+    margin-top: 60px;
+}
+
+.text{
+    margin-left: 70px;
+    margin-top: 140px;
+}
+.text-head{
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #07232d;
+}
+
+.text-para{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    width: 460px;
+    line-height: 25px;
+    color: #4d5f67;
+    font-weight:500;
+}
+
+.text-btn{
+    width: 270px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: #fe52c0;
+    color: #f8d4f2;
+    font-weight: bold;
+    box-shadow: 5px 5px 30px #e4f1f7;
+    cursor: pointer; 
+}
+.together, .conversations, .users{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border: 3px solid #e4f1f7;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+.conversations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.conversations, .users{
+    margin-top: 30px;
+}
+.image img, .imagee img, .imagees img{
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+}
+.imagee img{
+    margin-left: 30px;
+    margin-right: 0;
+}
+.texts-head, .textsss-head{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 130px;
+    margin-left: 120px;
+    color: #001824;
+}
+.texts-para, .textsss-para{
+    margin-left: 120px;
+    margin-right: 210px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    color: #959ba0;
+    font-weight: 500;
+}
+.textss-head{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 130px;
+    color: #001824;
+    margin-right: 190px;
+}
+.textss-para{
+    width: 450px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    color: #959ba0;
+    font-weight: 500;
+}
+.call-to-action{
+    width: 800px;
+    height: 250px;
+    background-color: #fff;
+    border: 2px solid #e4f1f7;
+    position: relative;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    color: #03222c;
+    text-align: center;
+    margin-top: 60px;
+}
+.call-btn{
+    width: 330px;
+    height: 70px;
+    border: none;
+    border-radius: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: #fe52c0;
+    color: #f8d4f2;
+    font-weight: bold;
+    box-shadow: 5px 5px 30px #e4f1f7;
+    cursor: pointer; 
+}
+footer{
+    background-color: #07232d;
+    height: 450px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+.sec-01 img{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(211deg) brightness(105%) contrast(102%);
+    margin-left: 100px;
+}
+.sec-text{
+    display: flex;
+}
+.sec-text{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(211deg) brightness(105%) contrast(102%);
+}
+.sec-text img{
+    margin-right: 20px;
+    width: 17px;
+    height: 17px;
+    margin-top: 30px;
+}
+.sec-01-para{
+    font-family:'Open Sans', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+    width: 300px;
+    margin-top: 30px;
+}
+.sec-02-anchor, .sec-03-anchor{
+    margin-top: 70px;
+    list-style-type: none;
+}
+.sec-02-anchor li, .sec-03-anchor li{
+    padding-bottom: 20px;
+}
+.sec-02-anchor li a, .sec-03-anchor li a{
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+    color: #bdd3d7;
+}
+.sec-04{
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.sec-04 img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9rem;
+    color: #bdd3d7;
+    font-weight: lighter;
+    margin-top: 30px;
+    text-align: right;
+    margin-right: 30px;
+}
+@media(max-width: 555px){
+    header img{
+        margin-left: 20px;
+    }
+    .btn{
+        margin-right: 20px;
+    }
+    .hero{
+        display: block;
+    }
+    .text{
+        margin-left: 0;
+    }
+    .text-head, .text-para, .text-btn{
+        text-align: center;
+    }
+    .text-para{
+        margin: 0 auto;
+    }
+    .images img{
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+    .together{
+        display: block;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+    .together, .conversations, .users{
+        display: block;
+        width: 400px;
+        padding-bottom: 50px;
+    }
+    .conversations, .users{
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .image img, .imagee img, .imagees img{
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 90px;
+    }
+    .texts-head, .textss-head, .textsss-head{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .texts-para, .textss-para, .textsss-para{
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .texts-para{
+        width: 320px;
+    }
+    .call-to-action{
+        width: 450px;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+    footer{
+        height: 850px;
+    }
+    .footer-container{
+        display: block;
+    }
+    .sec-01 img{
+        margin-left: 30px;
+    }
+    .sec-02-anchor{
+        margin-left: 30px;
+    }
+    .sec-03-anchor{
+        margin-top: 0;
+        margin-left: 30px;
+    }
+    .sec-04{
+        display: flex;
+        justify-content: center;
+    }
+    h6{
+        text-align: center;
+        margin-right: 0;
+    }
+}
